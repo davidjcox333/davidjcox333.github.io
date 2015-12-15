@@ -24,20 +24,30 @@ a:hover {
     color:#FFFF33;
     text-decoration: underline;
 }
-#sidePages section {
+#sidePages {
   width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
+  background: #34495e;
+  padding-top: 50px;
+  text-align: center;
+  color:white;
 }
-#sidePages h1 {
+#sidePages h3 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 34px;
   letter-spacing: 7px;
   color: white;
   text-align: center;
+  padding-bottom: 30px;
+}
+#sidePages section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
 }
 #sidePages section ul {
   overflow: hidden;
@@ -45,50 +55,30 @@ a:hover {
   width: 92.3%;
   margin: 0 3.85%;
   max-width: 1233px;
-  line-height: 20px;
+  text-align: center;
+  color:white;
 }
 #sidePages section ul li {
   float: left;
   margin-right: -100%;
   width: 100%;
-  line-height: 20px;
+  text-align: center;
+  color:white;
 }
 #sidePages section ul li h4 {
   width: 100%;
   text-align: center;
-  font-family: 'Raleway', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
   color: white;
-  line-height: 20px;
-}
-#sidePages section ul li a p {
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: white;
-  line-height: 20px;
-}
-#sidePages section ul li p {
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: white;
-  line-height: 20px;
 }
 #sidePages section ul li img {
-  display: block;
-  height:300px;
-  max-width: 351px;
+  display: inline block;
+  width: 100%;
+  max-width: 251px;
   margin: 0 auto;
+  height: 100%;
 }
 #sidePages section ul li:nth-child(1n+1) {
   margin-left: 0%;
@@ -96,46 +86,33 @@ a:hover {
   clear: both;
   overflow: hidden;
   *zoom: 1;
+  text-align: center;
 }
 @media screen and (min-width: 460px) {
-  #sidePages h1 {
+  #sidePages h4 {
     font-size: 26px;
     line-height: 33px;
     margin-left: 7%;
     margin-right: 7%;
   }
-
-  #sidePages section ul li h4 {
-    font-size: 20px;
-  }
 }
 @media screen and (min-width: 550px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 28px;
-    line-height: 8px;
+    line-height: 38px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  #sidePages section ul li p {
-    font-size: 14px;
-  }
-  #sidePages section ul li h4 {
-    font-size: 24px;
-  }
 }
 @media screen and (min-width: 700px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
     margin-right: 20%;
   }
   #sidePages section {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  #sidePages section ul li p {
-    font-size: 16px;
+    margin-top: 10px;
   }
   #sidePages section {
     padding-bottom: 25px;
@@ -164,19 +141,12 @@ a:hover {
   }
 }
 @media screen and (min-width: 900px) {
-  #sidePages h1 {
+  #sidePages h4 {
     font-size: 32px;
-    line-height: 18px;
+    line-height: 48px;
     max-width: 800px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-  section ul li p {
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
-  #sidePages section ul li h4 {
-    font-size: 28px;
   }
 }
 #SBzy {
