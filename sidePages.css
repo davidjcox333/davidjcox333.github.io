@@ -60,6 +60,7 @@ a:hover {
   font-weight: 600;
   font-size: 26px;
   color: white;
+  line-height: 20px;
 }
 #sidePages section ul li a p {
   text-align: center;
@@ -70,7 +71,7 @@ a:hover {
   font-weight: normal;
   font-size: 14px;
   color: white;
-  line-height: 10px;
+  line-height: 20px;
 }
 #sidePages section ul li p {
   text-align: center;
