@@ -1,0 +1,214 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    color: white;
+    background:#333333;
+}
+html body {
+    height:100%;
+}
+body div h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+a:link {
+    color: #FFFFCC;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFCC;
+}
+a:hover {
+    color:#FFFF33;
+    text-decoration: underline;
+}
+#sidePages section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+}
+#sidePages h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+}
+#sidePages section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+  line-height: 20px;
+}
+#sidePages section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+  line-height: 5px;
+}
+#sidePages section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+}
+#sidePages section ul li a p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  line-height: 10px;
+}
+#sidePages section ul li p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+}
+#sidePages section ul li img {
+  display: block;
+  height:300px;
+  max-width: 351px;
+  margin: 0 auto;
+}
+#sidePages section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media screen and (min-width: 460px) {
+  #sidePages h1 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #sidePages section ul li h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 550px) {
+  #sidePages h3 {
+    font-size: 28px;
+    line-height: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #sidePages section ul li p {
+    font-size: 14px;
+  }
+  #sidePages section ul li h4 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #sidePages h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #sidePages section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #sidePages section ul li p {
+    font-size: 16px;
+  }
+  #sidePages section {
+    padding-bottom: 25px;
+  }
+  #sidePages section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #sidePages section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #sidePages section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #sidePages section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sidePages h1 {
+    font-size: 32px;
+    line-height: 18px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  section ul li p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  #sidePages section ul li h4 {
+    font-size: 28px;
+  }
+}
+#SBzy {
+    width: 400px;
+}
+#pups {
+    height:200px;
+}
+.dogs {
+    display: inline-block;
+}
+
+footer {
+  position:fixed-bottom;
+  background:#333333;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color:#FFFFCC;
+  letter-spacing: 3px;
+  line-height: 5px;
+}
+
+footer a:link{
+    color:#FFFFCC;
+}
+footer a:hover{
+    color: white;
+}
+footer a:visited{
+    color:#FFFFCC;
+}
+footer div h4 {
+    letter-spacing: 1px;
+}
