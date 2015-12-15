@@ -1,0 +1,483 @@
+* {
+  outline: none;
+}
+html, body {
+  background: black;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.center {
+    width:100%;
+    background:black;
+    text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color:gray;
+}
+header {
+  width: 100%;
+  background: #FFFFCC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 5px;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 4px;
+  color: #333333;
+  text-decoration: underline;
+}
+header h1 a {
+  text-decoration: none;
+  color: #333333;
+  text-align: center;
+}
+header h1 span {
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 34px;
+}
+header .seperator {
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+  width: 55%;
+  margin: auto;
+  color: black;
+}
+header p {
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+header p a:link {
+  color:#333333;
+  text-decoration: none;
+}
+header p a:hover {
+  color: black;
+  text-decoration: underline;
+}
+header p a:visited {
+  color:#333333;
+  text-decoration: none;
+}
+header #photo {
+  margin:auto;
+}
+article {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+article h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  padding-top: 72px;
+  color: #b7b7b7;
+}
+
+#cvSections {
+  width: 100%;
+  background: #34495e;
+  text-align: center;
+  color:white;
+}
+#cvSections h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#cvSections h3 a:link {
+  color: white;
+}
+#cvSections h3 a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+#cvSections h3 a:visited {
+  color: white;
+}
+#cvSections section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+#cvSections section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+  text-align: center;
+  color:white;
+}
+#cvSections section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+  text-align: center;
+  color:white;
+  line-height: 20px;
+}
+#cvSections section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+#cvSections section ul li p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+#cvSections section ul li img {
+  display: inline block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  height: 100%;
+}
+#cvSections section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+}
+@media screen and (min-width: 460px) {
+  #cvSections h4 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #cvSections h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 700px) {
+  #cvSections h4 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #cvSections section {
+    margin-top: 10px;
+  }
+  #cvSections section {
+    padding-bottom: 25px;
+  }
+  #cvSections section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #cvSections section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #cvSections section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #cvSections section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #cvSections h4 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+#personal {
+  width: 100%;
+  padding-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  color:white;
+  line-height: 20px;
+}
+#personal h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+}
+#personal h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#personal h4 a:link {
+  color: white;
+}
+#personal h4 a:hover {
+  color: gray;
+  text-decoration: underline white;
+}
+#personal h4 a:visited {
+  color: white;
+}
+
+#reading{
+  background: #34495e;
+}
+#reading section {
+  background: #34495e;
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#reading h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#reading section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+}
+#reading section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+#reading section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+}
+#reading section ul li p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+  color: white;
+}
+#ethicalProject {
+  width: 200px;
+}
+#ethicsMarino {
+  width: 200px;
+}
+#ethicsLimits {
+  width:200px;
+}
+
+#reading section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media screen and (min-width: 460px) {
+  #reading h3 {
+    font-size: 26px;
+    line-height: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  #reading section ul li p {
+    font-size: 16px;
+    line-height: 12px;
+  }
+  #reading section ul li h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 550px) {
+  #reading h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #reading section ul li p {
+    font-size: 14px;
+  }
+  #reading section ul li h4 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #reading h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #reading section {
+    margin-top: 30px;
+  }
+  #reading section ul li p {
+    font-size: 16px;
+  }
+  #reading section {
+    padding-bottom: 25px;
+  }
+  #reading section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #reading section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #reading section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #reading section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #reading h3 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  section ul li p {
+    font-size: 18px;
+  }
+  #reading section ul li h4 {
+    font-size: 28px;
+  }
+}
+
+#contact {
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+  color:white;
+  line-height: 10px;
+}
+#contact h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+}
+#contact h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+footer {
+  background:#333333;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color:#FFFFCC;
+  letter-spacing: 3px;
+  line-height: 5px;
+}
+footer a:link{
+    color:#FFFFCC;
+}
+footer a:hover{
+    color: white;
+}
+footer a:visited{
+    color:#FFFFCC;
+}
+footer div h4 {
+    letter-spacing: 1px;
+}
+
