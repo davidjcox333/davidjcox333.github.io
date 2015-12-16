@@ -1,35 +1,406 @@
+html, body, div, span,  object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: inline block;
+}
 * {
-  font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: 1em;
-    color: white;
-    background:#333333;
+  outline: none;
 }
-html body {
-    height:100%;
-}
-body div h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-}
-a:link {
-    color: #FFFFCC;
-    text-decoration: none;
-}
-a:visited {
-    color: #FFFFCC;
-}
-a:hover {
-    color:#FFFF33;
-    text-decoration: underline;
-}
-#sidePages {
-  width: 100%;
+html, body {
   background: #34495e;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.center {
+  width:100%;
+  background:white;
+  text-align: center;
+  display:inline-block;
+}
+
+article {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+article h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  padding-top: 72px;
+  padding-bottom: 55px;
+  color: #b7b7b7;
+}
+article h3.seperator {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#bar {
+  width: 100%;
+  background: black;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+#bar nav a {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: white;
+  padding-bottom: 30px;
+}
+#fiance {
+  width:100%;
+  background:#333333;
   padding-top: 50px;
   text-align: center;
   color:white;
+}
+#fiance h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#fiance section img {
+  width:auto;
+  padding-bottom: 30px;
+  max-height: 400px;
+}
+#fiance section p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+#fiance a:link {
+  color: white;
+  text-decoration: none;
+}
+#fiance a:visited {
+  color: white;
+}
+#fiance a:hover {
+  color: #FFCC99;
+  text-decoration: underline;
+}
+@media screen and (min-width: 460px) {
+  #fiance h4 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #fiance h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 700px) {
+  #fiance h4 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #fiance section {
+    margin-top: 10px;
+  }
+  #fiance section {
+    padding-bottom: 25px;
+  }
+  #fiance section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #fiance section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #fiance section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #fiance section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #fiance h4 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+#personal a:link {
+  color: white;
+  text-decoration: none;
+}
+#personal a:visited {
+  color: white;
+}
+#personal a:hover {
+  color: #FFCC99;
+  text-decoration: underline;
+}
+#personal {
+  width: 100%;
+  background: #333333;
+  padding-top: 50px;
+  text-align: center;
+  color:white;
+}
+#personal h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#personal section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+#personal section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+  text-align: center;
+  color:white;
+  vertical-align: center;
+}
+#personal section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+  text-align: center;
+  color:white;
+}
+#personal section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+#personal section ul li img {
+  display: inline block;
+  margin: 0 auto;
+  width: 100%;
+}
+#personal section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+}
+@media screen and (min-width: 460px) {
+  #personal h4 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #personal h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 700px) {
+  #personal h4 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #personal section {
+    margin-top: 10px;
+  }
+  #personal section {
+    padding-bottom: 25px;
+  }
+  #personal section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #personal section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #personal section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #personal section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #personal h4 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+#basicInfo {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 45px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+#basicInfo h1 {
+  width: 100%;
+  background: #333333;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 34px;
+  color:white;
+  padding: 30px;
+}
+#basicInfo h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#basicInfo p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: white;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#sidePages a:visited {
+  color: white !important;
+}
+#sidePages a:link {
+  color: white !important;
+  text-decoration: none;
+}
+#sidePages a:hover {
+  color: #666666 !important;
+  text-decoration: underline;
+}
+#sidePages {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 45px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+#sidePages h1 {
+  width: 100%;
+  background: #333333;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 34px;
+  color:white;
+  padding: 30px;
 }
 #sidePages h3 {
   width: 100%;
@@ -42,43 +413,40 @@ a:hover {
   text-align: center;
   padding-bottom: 30px;
 }
-#sidePages section {
-  width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 45px;
-}
 #sidePages section ul {
   overflow: hidden;
   *zoom: 1;
   width: 92.3%;
   margin: 0 3.85%;
   max-width: 1233px;
-  text-align: center;
-  color:white;
 }
 #sidePages section ul li {
   float: left;
   margin-right: -100%;
   width: 100%;
-  text-align: center;
-  color:white;
 }
 #sidePages section ul li h4 {
   width: 100%;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
-  font-size: 20px;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
   color: white;
 }
-#sidePages section ul li img {
-  display: inline block;
-  width: 100%;
-  max-width: 251px;
-  margin: 0 auto;
-  height: 100%;
+#sidePages section ul li p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 20px;
+  color: white;
+}
+#sidePages section ul li p em {
+  font-style: italic;
 }
 #sidePages section ul li:nth-child(1n+1) {
   margin-left: 0%;
@@ -86,33 +454,48 @@ a:hover {
   clear: both;
   overflow: hidden;
   *zoom: 1;
-  text-align: center;
 }
 @media screen and (min-width: 460px) {
-  #sidePages h4 {
+  #sidePages h3 {
     font-size: 26px;
     line-height: 33px;
     margin-left: 7%;
     margin-right: 7%;
   }
+  #sidePages section ul li p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #sidePages section ul li h4 {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 550px) {
-  #sidePages h4 {
+  #sidePages h3 {
     font-size: 28px;
     line-height: 38px;
     margin-left: 10%;
     margin-right: 10%;
   }
+  #sidePages section ul li p {
+    font-size: 14px;
+  }
+  #sidePages section ul li h4 {
+    font-size: 24px;
+  }
 }
 @media screen and (min-width: 700px) {
-  #sidePages h4 {
+  #sidePages h3 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
     margin-right: 20%;
   }
   #sidePages section {
-    margin-top: 10px;
+    margin-top: 30px;
+  }
+  #sidePages section ul li p {
+    font-size: 16px;
   }
   #sidePages section {
     padding-bottom: 25px;
@@ -141,45 +524,49 @@ a:hover {
   }
 }
 @media screen and (min-width: 900px) {
-  #sidePages h4 {
+  #sidePages h3 {
     font-size: 32px;
     line-height: 48px;
     max-width: 800px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-}
-#SBzy {
-    width: 400px;
-}
-#pups {
-    height:200px;
-}
-.dogs {
-    display: inline-block;
+  section ul li p {
+    font-size: 18px;
+  }
+  #sidePages section ul li h4 {
+    font-size: 28px;
+  }
 }
 
 footer {
-  position:fixed-bottom;
+  position:absolute;
   background:#333333;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+footer h3 {
+  background:#333333;
   text-align: center;
   color:#FFFFCC;
   letter-spacing: 3px;
-  line-height: 5px;
+}
+footer h3 a:link{
+  color:#FFFFCC;
+}
+footer h3 a:hover{
+  color: white;
+}
+footer h3 a:visited{
+  color:#FFFFCC;
+}
+footer h4 {
+  background:#333333;
+  text-align: center;
+  color:#FFFFCC;
+  letter-spacing: 1px;
 }
 
-footer a:link{
-    color:#FFFFCC;
-}
-footer a:hover{
-    color: white;
-}
-footer a:visited{
-    color:#FFFFCC;
-}
-footer div h4 {
-    letter-spacing: 1px;
-}
