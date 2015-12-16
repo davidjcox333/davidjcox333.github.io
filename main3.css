@@ -58,15 +58,15 @@ body {
   display:inline-block;
 }
 a:link {
-  color:#454545;
+  color:white;
   text-decoration: none;
 }
 a:visited{
-  color:#454545;
+  color:white;
   text-decoration: none;
 }
 a:hover{
-  color: white;
+  color: #454545;
 }
 article {
   width: 100%;
