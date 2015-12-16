@@ -56,6 +56,7 @@ body {
   background:white;
   text-align: center;
   display:inline-block;
+  letter-spacing: 50px;
 }
 a:link {
   color:white;
