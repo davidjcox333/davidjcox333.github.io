@@ -89,7 +89,7 @@ article h3.seperator {
 }
 header {
   width: 100%;
-  background: #FFCC99;
+  background: #333333;
   padding-top: 30px;
 }
 header h1 {
@@ -99,7 +99,7 @@ header h1 {
   font-weight: 500;
   font-size: 34px;
   letter-spacing: 7px;
-  color: #252525;
+  color: white;
   padding-bottom: 30px;
 }
 header h1 span {
@@ -109,7 +109,7 @@ header h1 span {
 }
 header h1 a {
   text-decoration: none;
-  color: #252525;
+  color: white;
   text-align: center;
 }
 header .seperator {
@@ -124,7 +124,7 @@ header h4 {
   font-size: 15px;
   margin-top: 25px;
   line-height: 15px;
-  color: #454545;
+  color: white;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -153,7 +153,7 @@ header section ul li h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 26px;
-  color: #454545;
+  color: white;
 }
 header section ul li p {
   text-align: center;
@@ -165,7 +165,7 @@ header section ul li p {
   font-size: 14px;
   margin-top: 8px;
   line-height: 20px;
-  color: #454545;
+  color: white;
 }
 header section ul li img {
   display: block;
