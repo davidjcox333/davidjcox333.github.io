@@ -168,18 +168,6 @@ header section ul li p {
   line-height: 20px;
   color: white;
 }
-.websites .appear {
-  display: none;
-  background-color:#333333;
-  padding:0.5em;
-  opacity:0.75;
-}
-.websites:hover .appear{
-  display:block;
-}
-.websites:hover .remove {
-  display:none;
-}
 header section ul li img {
   display: block;
   width: 100%;
