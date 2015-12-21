@@ -268,18 +268,6 @@ article h3.seperator {
   font-size: 20px;
   color: white;
 }
-.websites .appear {
-  display: none;
-  background-color:#333333;
-  padding:0.5em;
-  opacity:0.75;
-}
-.websites:hover .appear{
-  display:block;
-}
-.websites:hover .remove {
-  display:none;
-}
 #personal section ul li img {
   display: inline block;
   margin: 0 auto;
