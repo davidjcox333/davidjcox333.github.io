@@ -444,7 +444,6 @@ header section ul li:nth-child(1n+1) {
 }
 #reading {
   background: #34495e;
-
 }
 #reading section {
   width: 100%;
@@ -596,7 +595,161 @@ header section ul li:nth-child(1n+1) {
     font-size: 28px;
   }
 }
+#music {
+  background: black;
+}
+#music section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+#music h3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#music section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+}
+#music section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+#music section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+}
+#music section ul li p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 20px;
+  color: white;
+}
+#music section ul li img {
+  display: block;
+  width: 100%;
+  max-width: 351px;
+  margin: 0 auto;
+}
+#music section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media screen and (min-width: 460px) {
+  #music h3 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #music section ul li p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #music section ul li h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 550px) {
+  #music h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #music section ul li p {
+    font-size: 14px;
+  }
+
+  #music section ul li h4 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #music h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #music section {
+    margin-top: 30px;
+  }
+  #music section ul li p {
+    font-size: 16px;
+  }
+  #music section {
+    padding-bottom: 25px;
+  }
+  #music section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #music section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #music section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #music section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #music h3 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  section ul li p {
+    font-size: 18px;
+  }
+  #music section ul li h4 {
+    font-size: 28px;
+  }
+}
 #contact {
+  background: #34495e;
   width: 100%;
   padding-bottom: 80px;
   margin: auto;
