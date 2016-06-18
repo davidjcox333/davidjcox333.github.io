@@ -112,10 +112,10 @@ article h3.seperator {
   text-align: center;
   padding-bottom: 30px;
 }
-#fiance section img {
+#fiance section ul img {
   width:auto;
   padding-bottom: 30px;
-  max-height: 100px;
+  max-height: 10px;
 }
 #fiance section p {
   color: white;
