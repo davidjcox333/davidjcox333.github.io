@@ -249,10 +249,8 @@ article h3.seperator {
 }
 #personal section ul li p {
   width: 100%;
-  letter-spacing: 4px;
-  padding-top: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
+  letter-spacing: 2px;
+  padding-top: 10px;
   text-align: center;
   font-family: Arial, sans-serif;
   font-weight: normal;
