@@ -421,7 +421,7 @@ header section ul li:nth-child(1n+1) {
   text-align: center;
   padding-bottom: 30px;
 }
-#personal h4 {
+#personal h1 ul li h4 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -432,7 +432,7 @@ header section ul li:nth-child(1n+1) {
   text-align: center;
   padding-bottom: 10px;
 }
-#personal h1 il li h4 p {
+#personal h1 ul li h4 p {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -441,6 +441,10 @@ header section ul li:nth-child(1n+1) {
   letter-spacing: 2px;
   color: white;
   text-align: center;
+  padding-bottom: 10px;
+}
+#personal h1 ul li img {
+  height: 100%;
   padding-bottom: 10px;
 }
 #personal a:link {
