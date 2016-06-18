@@ -394,6 +394,8 @@ article h3.seperator {
 #sidePages section ul li p {
   width: 100%;
   text-align: center;
+  padding-top: 10px;
+  line-height: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 450;
   font-size: 15px;
