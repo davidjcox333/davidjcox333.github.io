@@ -485,25 +485,25 @@ article h3.seperator {
   }
 }
 
-#container a:link {
+#basicInfo a:link {
   color: white;
   text-decoration: none;
 }
-#container a:visited {
+#basicInfo a:visited {
   color: white;
 }
-#container a:hover {
+#basicInfo a:hover {
   color: #FFCC99;
   text-decoration: underline;
 }
-#container {
+#basicInfo {
   width: 100%;
   background: #333333;
   padding-top: 50px;
   text-align: center;
   color:white;
 }
-#container h1 {
+#basicInfo h1 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -514,14 +514,14 @@ article h3.seperator {
   text-align: center;
   padding-bottom: 10px;
 }
-#container section {
+#basicInfo section {
   width: 100%;
   max-width: 1233px;
   margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 45px;
 }
-#container section ul {
+#basicInfo section ul {
   overflow: hidden;
   *zoom: 1;
   width: 92.3%;
@@ -531,14 +531,14 @@ article h3.seperator {
   color:white;
   vertical-align: center;
 }
-#container section ul li {
+#basicInfo section ul li {
   float: left;
   margin-right: -100%;
   width: 100%;
   text-align: center;
   color:white;
 }
-#container section ul li p {
+#basicInfo section ul li p {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -546,7 +546,7 @@ article h3.seperator {
   font-size: 15px;
   color: white;
 }
-#container section ul li h4 {
+#basicInfo section ul li h4 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -554,12 +554,12 @@ article h3.seperator {
   font-size: 20px;
   color: white;
 }
-#container section ul li img {
+#basicInfo section ul li img {
   display: inline block;
   margin: 0 auto;
   width: 100%;
 }
-#container section ul li:nth-child(1n+1) {
+#basicInfo section ul li:nth-child(1n+1) {
   margin-left: 0%;
   margin-bottom: 3.85%;
   clear: both;
@@ -568,7 +568,7 @@ article h3.seperator {
   text-align: center;
 }
 @media screen and (min-width: 460px) {
-  #container h4 {
+  #basicInfo h4 {
     font-size: 26px;
     line-height: 33px;
     margin-left: 7%;
@@ -576,7 +576,7 @@ article h3.seperator {
   }
 }
 @media screen and (min-width: 550px) {
-  #container h4 {
+  #basicInfo h4 {
     font-size: 28px;
     line-height: 38px;
     margin-left: 10%;
@@ -584,43 +584,43 @@ article h3.seperator {
   }
 }
 @media screen and (min-width: 700px) {
-  #container h4 {
+  #basicInfo h4 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
     margin-right: 20%;
   }
-  #container section {
+  #basicInfo section {
     margin-top: 10px;
   }
-  #container section {
+  #basicInfo section {
     padding-bottom: 25px;
   }
-  #container section ul li {
+  #basicInfo section ul li {
     float: left;
     margin-right: -100%;
     width: 30.77%;
   }
-  #container section ul li:nth-child(3n+1) {
+  #basicInfo section ul li:nth-child(3n+1) {
     margin-left: 0%;
     margin-bottom: 3.85%;
     clear: both;
     overflow: hidden;
     *zoom: 1;
   }
-  #container section ul li:nth-child(3n+2) {
+  #basicInfo section ul li:nth-child(3n+2) {
     margin-left: 34.62%;
     margin-bottom: 3.85%;
     clear: none;
   }
-  #container section ul li:nth-child(3n+3) {
+  #basicInfo section ul li:nth-child(3n+3) {
     margin-left: 69.23%;
     margin-bottom: 3.85%;
     clear: none;
   }
 }
 @media screen and (min-width: 900px) {
-  #container h4 {
+  #basicInfo h4 {
     font-size: 32px;
     line-height: 48px;
     max-width: 800px !important;
