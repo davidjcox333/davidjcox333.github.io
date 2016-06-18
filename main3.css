@@ -430,7 +430,18 @@ header section ul li:nth-child(1n+1) {
   letter-spacing: 4px;
   color: white;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+#personal p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
 }
 #personal a:link {
   color: white !important;
