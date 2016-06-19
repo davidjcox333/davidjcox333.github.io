@@ -328,6 +328,14 @@ header section ul li:nth-child(1n+1) {
   font-size: 20px;
   color: white;
 }
+#cvSections section ul li p {
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+}
 #cvSections section ul li img {
   display: inline block;
   width: 100%;
@@ -422,24 +430,13 @@ header section ul li:nth-child(1n+1) {
   text-align: center;
   padding-bottom: 30px;
 }
-#personal h1 ul li a h4 {
+#personal ul h4 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 24px;
   letter-spacing: 4px;
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
-}
-#personal h1 ul li h4 p {
-  width: 100%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: 2px;
   color: white;
   text-align: center;
   padding-bottom: 10px;
