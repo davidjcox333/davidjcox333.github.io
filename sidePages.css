@@ -353,7 +353,7 @@ article h3.seperator {
 }
 #sidePages {
   width: 100%;
-  background: #333333;
+  background: #34495e;
   padding-top: 50px;
   text-align: center;
   color:white;
@@ -500,7 +500,7 @@ article h3.seperator {
 }
 #basicInfo {
   width: 100%;
-  background: #333333;
+  background: #34495e;
   padding-top: 50px;
   text-align: center;
   color:white;
@@ -516,59 +516,17 @@ article h3.seperator {
   text-align: center;
   padding-bottom: 10px;
 }
-#basicInfo section {
-  width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 45px;
-}
-#basicInfo section ul {
-  overflow: hidden;
-  *zoom: 1;
-  width: 92.3%;
-  margin: 0 3.85%;
-  max-width: 1233px;
-  text-align: center;
-  color:white;
-  vertical-align: center;
-}
-#basicInfo section ul li {
-  float: left;
-  margin-right: -100%;
-  width: 100%;
-  text-align: center;
-  color:white;
-}
-#basicInfo section ul li p {
+
+#basicInfo p {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 450;
   font-size: 15px;
   color: white;
+  line-height: 25px;
 }
-#basicInfo section ul li h4 {
-  width: 100%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
-  font-size: 20px;
-  color: white;
-}
-#basicInfo section ul li img {
-  display: inline block;
-  margin: 0 auto;
-  width: 100%;
-}
-#basicInfo section ul li:nth-child(1n+1) {
-  margin-left: 0%;
-  margin-bottom: 3.85%;
-  clear: both;
-  overflow: hidden;
-  *zoom: 1;
-  text-align: center;
-}
+
 @media screen and (min-width: 460px) {
   #basicInfo h4 {
     font-size: 26px;
@@ -586,43 +544,21 @@ article h3.seperator {
   }
 }
 @media screen and (min-width: 700px) {
-  #basicInfo h4 {
+  #basicInfo h1 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
     margin-right: 20%;
   }
-  #basicInfo section {
+  #basicInfo p {
     margin-top: 10px;
   }
-  #basicInfo section {
+  #basicInfo p {
     padding-bottom: 25px;
-  }
-  #basicInfo section ul li {
-    float: left;
-    margin-right: -100%;
-    width: 30.77%;
-  }
-  #basicInfo section ul li:nth-child(3n+1) {
-    margin-left: 0%;
-    margin-bottom: 3.85%;
-    clear: both;
-    overflow: hidden;
-    *zoom: 1;
-  }
-  #basicInfo section ul li:nth-child(3n+2) {
-    margin-left: 34.62%;
-    margin-bottom: 3.85%;
-    clear: none;
-  }
-  #basicInfo section ul li:nth-child(3n+3) {
-    margin-left: 69.23%;
-    margin-bottom: 3.85%;
-    clear: none;
   }
 }
 @media screen and (min-width: 900px) {
-  #basicInfo h4 {
+  #basicInfo h1 {
     font-size: 32px;
     line-height: 48px;
     max-width: 800px !important;
