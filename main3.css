@@ -321,10 +321,19 @@ header section ul li:nth-child(1n+1) {
 }
 #cvSections section ul li h4 {
   width: 100%;
+  line-height: 25px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 20px;
+  color: white;
+}
+#cvSections section ul li p {
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   color: white;
 }
 #cvSections section ul li img {
@@ -421,7 +430,7 @@ header section ul li:nth-child(1n+1) {
   text-align: center;
   padding-bottom: 30px;
 }
-#personal h4 {
+#personal ul h4 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -430,7 +439,11 @@ header section ul li:nth-child(1n+1) {
   letter-spacing: 4px;
   color: white;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+#personal h1 ul li img {
+  height: 50px;
+  padding-bottom: 10px;
 }
 #personal a:link {
   color: white !important;

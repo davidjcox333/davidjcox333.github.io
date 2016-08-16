@@ -117,7 +117,7 @@ article h3.seperator {
   padding-bottom: 30px;
   max-height: 400px;
 }
-#fiance section p {
+#fiance section ul p {
   color: white;
   font-size: 20px;
   padding-bottom: 20px;
@@ -221,7 +221,7 @@ article h3.seperator {
   letter-spacing: 7px;
   color: white;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 #personal section {
   width: 100%;
@@ -249,19 +249,16 @@ article h3.seperator {
 }
 #personal section ul li p {
   width: 100%;
-  letter-spacing: 4px;
-  padding-top: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
   text-align: center;
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  margin-top: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 18px;
   color: white;
 }
 #personal section ul li h4 {
   width: 100%;
+  line-height: 25px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
@@ -343,80 +340,25 @@ article h3.seperator {
   }
 }
 
-#basicInfo {
-  width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding-bottom: 45px;
-  margin-bottom: 20px;
-  line-height: 30px;
-}
-#basicInfo h1 {
-  width: 100%;
-  background: #333333;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 34px;
-  color:white;
-  padding: 30px;
-}
-#basicInfo h3 {
-  width: 100%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 7px;
-  color: white;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#basicInfo p {
-  width: 100%;
-  letter-spacing: 4px;
-  padding-top: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  margin-top: 8px;
-  color: white;
-}
-#sidePages a:visited {
-  color: white !important;
-}
 #sidePages a:link {
-  color: white !important;
+  color: white;
   text-decoration: none;
 }
+#sidePages a:visited {
+  color: white;
+}
 #sidePages a:hover {
-  color: #666666 !important;
+  color: #FFCC99;
   text-decoration: underline;
 }
 #sidePages {
   width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding-bottom: 45px;
-  margin-bottom: 20px;
-  line-height: 30px;
+  background: #34495e;
+  padding-top: 50px;
+  text-align: center;
+  color:white;
 }
 #sidePages h1 {
-  width: 100%;
-  background: #333333;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 34px;
-  color:white;
-  padding: 30px;
-}
-#sidePages h3 {
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -425,7 +367,14 @@ article h3.seperator {
   letter-spacing: 7px;
   color: white;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+#sidePages section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
 }
 #sidePages section ul {
   overflow: hidden;
@@ -433,34 +382,40 @@ article h3.seperator {
   width: 92.3%;
   margin: 0 3.85%;
   max-width: 1233px;
+  text-align: center;
+  color:white;
+  vertical-align: center;
 }
 #sidePages section ul li {
   float: left;
   margin-right: -100%;
   width: 100%;
+  text-align: center;
+  color:white;
+}
+#sidePages section ul li p {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  color: white;
 }
 #sidePages section ul li h4 {
   width: 100%;
+  line-height: 25px;
   text-align: center;
-  font-family: 'Raleway', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
   color: white;
 }
-#sidePages section ul li p {
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  margin-top: 8px;
-  line-height: 20px;
-  color: white;
-}
-#sidePages section ul li p em {
-  font-style: italic;
+#sidePages section ul li img {
+  display: inline block;
+  margin: 0 auto;
+  width: 100%;
 }
 #sidePages section ul li:nth-child(1n+1) {
   margin-left: 0%;
@@ -468,48 +423,33 @@ article h3.seperator {
   clear: both;
   overflow: hidden;
   *zoom: 1;
+  text-align: center;
 }
 @media screen and (min-width: 460px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 26px;
     line-height: 33px;
     margin-left: 7%;
     margin-right: 7%;
   }
-  #sidePages section ul li p {
-    font-size: 16px;
-    line-height: 22px;
-  }
-  #sidePages section ul li h4 {
-    font-size: 20px;
-  }
 }
 @media screen and (min-width: 550px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 28px;
     line-height: 38px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  #sidePages section ul li p {
-    font-size: 14px;
-  }
-  #sidePages section ul li h4 {
-    font-size: 24px;
-  }
 }
 @media screen and (min-width: 700px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
     margin-right: 20%;
   }
   #sidePages section {
-    margin-top: 30px;
-  }
-  #sidePages section ul li p {
-    font-size: 16px;
+    margin-top: 10px;
   }
   #sidePages section {
     padding-bottom: 25px;
@@ -538,20 +478,95 @@ article h3.seperator {
   }
 }
 @media screen and (min-width: 900px) {
-  #sidePages h3 {
+  #sidePages h4 {
     font-size: 32px;
     line-height: 48px;
     max-width: 800px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  section ul li p {
-    font-size: 18px;
-  }
-  #sidePages section ul li h4 {
-    font-size: 28px;
+}
+
+#basicInfo a:link {
+  color: white;
+  text-decoration: none;
+}
+#basicInfo a:visited {
+  color: white;
+}
+#basicInfo a:hover {
+  color: #FFCC99;
+  text-decoration: underline;
+}
+#basicInfo {
+  width: 100%;
+  background: #34495e;
+  padding-top: 50px;
+  text-align: center;
+  color:white;
+}
+#basicInfo h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#basicInfo p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  color: white;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 460px) {
+  #basicInfo h4 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 }
+@media screen and (min-width: 550px) {
+  #basicInfo h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 700px) {
+  #basicInfo h1 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #basicInfo p {
+    margin-top: 10px;
+  }
+  #basicInfo p {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #basicInfo h1 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
 
 footer {
   position:absolute;
