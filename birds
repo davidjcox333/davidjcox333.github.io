@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="sidePages.css">
+<link href='https://fonts.googleapis.com/css?family=Cabin:400,600,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+<head>
+	<title>DJC|Birds</title>
+</head>
+<body>
+	<div class="bar" id="bar">
+		<nav class="bar-nav">
+			<a class="bar-nav-item" href="index.html"> Home |</a>
+			<a class="bar-nav-item" href="currentResearch.html"> Current Research Interests |</a>
+			<a class="bar-nav-item" href="education.html"> Education |</a>
+			<a class="bar-nav-item" href="clinical.html"> Clinical Experience |</a>
+			<a class="bar-nav-item" href="publications.html"> Publications |</a>
+			<a class="bar-nav-item" href="presentations.html"> Presentations |</a>
+			<a class="bar-nav-item" href="teaching.html"> Teaching Experience |</a>
+			<a class="bar-nav-item" href="personal.html"> Hobbies & Family |</a>
+			<a class="bar-nav-item" href="mailto:cox.david.j@gmail.com"> Contact</a>
+		</nav>
+	</div>
+	<article id="sidePages">
+		<h1>In the Backyard</h1>
+			<section>
+			<ul>
+				<li>
+					<a href="http://www.audubon.org/field-guide/bird/northern-cardinal">
+					<img id="NorthernCardinal" src="NorthernCardinal.jpg">
+					<h4>Northern Cardinal</h4>
+					</a>
+				</li>
+        <li>
+					<a  href="http://www.audubon.org/field-guide/bird/pileated-woodpecker">
+					<img id="PileatedWoodpecker" src="PileatedWoodpecker.jpg">
+					<h4>Pileated Woodpecker</h4>
+					</a>
+				</li>
+			</ul>
+      <h1>Payne's Prairie</h1>
+			<section>
+			<ul>
+				<li>
+					<a href="http://www.audubon.org/field-guide/bird/great-blue-heron">
+					<img id="GreatBlueHeron" src="GreatBlueHeron.jpg">
+					<h4>Northern Cardinal</h4>
+					</a>
+				</li>
+	</article>
+	<footer>
+		<div class="copyright">
+			<h3>BUILT BY: <a href="http://davidjcox.xyz"><img id="davjcdevLogo" src="davJCdev-logo.JPG" height="25px"/></a></h3>
+			<h4 id = "devName">Copyright &copy 2015 DavJCDev. All rights reserved.</h4>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="script3.js"></script>
+</body>
+</html>
